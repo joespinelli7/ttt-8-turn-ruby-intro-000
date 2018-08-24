@@ -13,7 +13,7 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  if array[ind] == " " | board[index] == "" | board[index] == nil
+  if array[ind] == " " | array[ind] == "" | array[ind] == nil
     return false
   else
     return true
